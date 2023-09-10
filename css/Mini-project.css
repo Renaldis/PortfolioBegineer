@@ -1,0 +1,65 @@
+.header {
+  background-color: rgb(8, 186, 239);
+  padding-top: 1px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  border-radius: 10px 10px 10px 10px;
+}
+.nav .nav2 {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
+  padding: 8px 0px;
+  transition: all;
+  transition-duration: 200ms;
+  border-bottom: 1px solid transparent;
+}
+a:hover {
+  color: burlywood;
+  border-bottom: 1px solid rgb(255, 0, 0);
+}
+
+article {
+  background-color: ;
+  text-align: center;
+}
+
+#foto-aldi {
+  border-radius: 20%;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+  margin-inline: auto;
+}
+th {
+  background-color: gray;
+}
+
+#foto-aldi {
+  width: 250px;
+}
+.overview {
+  text-align: center;
+  word-spacing: 1px;
+}
+
+footer {
+  background-color: red;
+  color: aliceblue;
+  text-align: center;
+}
